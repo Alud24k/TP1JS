@@ -8,3 +8,10 @@ document.write("<br>El resultado de la resta es: " + (impar - par));
 document.write("<br>El resultado de la multiplicacion es: " + impar * par);
 
 document.write("<br>El resultado de la division es: " + impar / par);
+
+let nombre = "Elias"
+let apellido = " Perez"
+
+let nombreCompleto = nombre + apellido
+
+document.write("<br>El nombre completo es: "+ nombreCompleto)
