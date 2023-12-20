@@ -15,3 +15,14 @@ let apellido = " Perez";
 let nombreCompleto = nombre + apellido;
 
 document.write("<br>El nombre completo es: " + nombreCompleto);
+
+gradosCelsius = 25;
+gradosFahrenheit = (gradosCelsius * 9) / 5 + 32;
+
+document.write(
+  "<br>" +
+    gradosCelsius +
+    "°C grados celsius son equivalentes a " +
+    gradosFahrenheit +
+    "°F grados farenheit"
+);
