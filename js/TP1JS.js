@@ -16,8 +16,8 @@ let nombreCompleto = nombre + apellido;
 
 document.write("<br>El nombre completo es: " + nombreCompleto);
 
-gradosCelsius = 25;
-gradosFahrenheit = (gradosCelsius * 9) / 5 + 32;
+let gradosCelsius = 22;
+let gradosFahrenheit = (gradosCelsius * 9) / 5 + 32;
 
 document.write(
   "<br>" +
