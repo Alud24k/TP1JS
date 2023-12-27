@@ -13,4 +13,4 @@ for (let index = 0; index < palabra.length; index++) {
     vocales += caracter;
   }
 }
-alert("Las vocales son: " + vocales);
+alert(`Las vocales son: ${vocales}`);
