@@ -2,7 +2,7 @@ let palabra = prompt("Ingrese una palabra");
 let vocales = "";
 
 for (let index = 0; index < palabra.length; index++) {
-  const caracter = palabra.charAt(index).toLowerCase();
+  const caracter = palabra[index].toLowerCase();
   if (
     caracter === "a" ||
     caracter === "e" ||
